@@ -6,7 +6,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 const AppLayout = () => {
-    const user = true;
+    const user = false;
     return (
         <div>
             <main className="min-h-12 m-2 min-w-screen overflow-hidden">
