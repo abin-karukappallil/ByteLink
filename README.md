@@ -42,8 +42,23 @@
    cd bytelink```
 
 2. **Install all dependencies**:
+   
    - Run the following command to install the necessary packages specified in the `package.json` file:
+     
      ```bash
      npm install
      ```
+3. **Setup Supabase**:
+
+   - Go to your [Supabase Dashboard](https://supabase.io) and create a new project if you haven't already.
+   - In your project, set up a database schema to store links (for example, create a `links` table with fields such as `id`, `original_url`, `shortened_url`, `user_id`, and `click_count`).
+   - Retrieve your Supabase API URL and Anonymous Key from the Supabase project settings.
+   - In the root directory of your project, create a `.env` file and add the following environment variables:
+
+     ```env
+     REACT_APP_SUPABASE_URL=your_supabase_project_url
+     REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
+     ```
+
+   - Save the `.env` file. This will allow your project to connect to Supabase for authentication and database storage.
 
