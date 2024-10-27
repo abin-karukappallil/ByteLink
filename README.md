@@ -39,4 +39,11 @@
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/bytelink.git
-   cd bytelink
+   cd bytelink```
+
+2. **Install all dependencies**:
+   - Run the following command to install the necessary packages specified in the `package.json` file:
+     ```bash
+     npm install
+     ```
+
