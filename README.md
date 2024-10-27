@@ -1,6 +1,6 @@
-# Link Shortener
+# ByteLink
 
-This project is a Link Shortener application built using React for the frontend, with user authentication powered by Supabase. It provides users with a secure and user-friendly way to shorten URLs, track clicks, and manage their links.
+**ByteLink** is a Link Shortener application built using React for the frontend, with user authentication powered by Supabase. It provides users with a secure and user-friendly way to shorten URLs, track clicks, and manage their links.
 
 ## Table of Contents
 
@@ -38,5 +38,5 @@ This project is a Link Shortener application built using React for the frontend,
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/link-shortener.git
-   cd link-shortener
+   git clone https://github.com/your-username/bytelink.git
+   cd bytelink
